@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Nike - Just Do It</title>
+        <link rel="stylesheet" href="index.css">
+        <link rel="shortcut icon" href="img\image.jpg">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+        />
+    
+    
+    </head>
+<body>
+
+    <!--header-->
+    <div class="navbar">
+
+        <nav>
+            <div class="logo">
+                <h1>Shoe<span>s</span></h1>
+            </div>
+            <ul>
+
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#Products">Products</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Review">Review</a></li>
+                <li><a href="#Servises">Servises</a></li>
+
+            </ul>
+            <div class="icons">
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-cart-shopping"></i>
+                <i class="fa-solid fa-user"></i>
+            </div>
+        </nav>
+    </div>
+       
+    
+
+
+
+   <!-- Product-->
+   <div class="product">
+     <div class="pruduct_main">
+       <div class="product_image">
+         <div class="image_contaner">
+            
+             <img src="img\red_shoes1.png" id="imagebox">
+             <div class="product_info">
+    
+                <h1>shoe<span>s1</span> </h1>
+                <h2>$100.99</h2>
+                
+             <select class="size" id="size" name="size">
+                      <option selected disabled>Select Size</option>
+                        <option value="30">30</option>
+                      <option value="31">31</option>
+                    <option value="32">32</option>
+                    <option value="33">33</option>
+                    <option value="34">34</option>
+                    <option value="35">35</option>
+                    <option value="36">36</option>
+                    <option value="37">37</option>
+                    <option value="38">38</option>
+                    <option value="39">39</option>
+                    <option value="40">40</option>
+                       </select>
+                       <div class="product-action">
+                        <input type="number" min="1" value="1">
+                        <a href="#" class="btn">Buy Now</a>
+                      </div>
+
+                  <h2 class="info_titel">Product Information</h2>
+                <p>
+                     Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical 
+                    Latsh versions from the 1914 translation by H. Rackham.
+                </p>
+                
+            </div>
+        </div>
+        
+        <div class="product_small_image">
+            <img src="img\red_shoes1.png" onclick="functio(this)">
+            <img src="img\red_shoes2.png" onclick="functio(this)">
+            <img src="img\red_shoes3.png" onclick="functio(this)">
+            <img src="img\red_shoes4.png" onclick="functio(this)">
+        </div>
+        
+        <script>
+            function functio(small){
+                var full = document.getElementById("imagebox")
+                full.src = small.src
+            }
+        </script>
+        
+        
+           </div>
+
+   
+
+                 </div>
+                         
+                                
+                                          </div>
+
+
+                                          <footer>
+                                            <div class="footer_main">
+                                                <div class="tag">
+                                                    <h1>contact</h1>
+                                                    <a href="#"><i class="fa-solid fa-house"></i>123/ouargla/mkhadma</a>
+                                                    <a href="#"><i class="fa-solid fa-phone"></i>+213 55 60 32</a>
+                                                    <a href="#"><i class="fa-solid fa-envelope"></i>algeria-store@gmail.com</a>
+                                                </div>
+                                                <div class="tag">
+                                                    <h1>Get Help</h1>
+                                                    <a href="#" class="center">FAQ</a>
+                                                    <a href="#" class="center">Shipping</a>
+                                                    <a href="#" class="center">Return</a>
+                                                    <a href="#" class="center">Payment Optiond</a>
+                                                </div>
+                                                <div class="tag">
+                                                    <h1>Our Stores</h1>
+                                                    <a href="#" class="center">Sei Lanka</a>
+                                                    <a href="#" class="center">USA</a>
+                                                    <a href="#" class="center">Algeria</a>
+                                                    <a href="#" class="center">Japan</a>
+                                                </div>
+                                                <div class="tag">
+                                                    <h1>Follw Us</h1>
+                                                    <div class="social_links">
+                                                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                                    <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+                                                    </div>
+                                                </div>
+                                                <div class="tag">
+                                                    <h1>Newsletter</h1>
+                                                    <div class="search_bar">
+                                                        <input type="text" placeholder="You email id here">
+                                                        <button type="submit">Submit</button>
+                                                    </div>
+                                                </div>
+                                            
+                                            </div>
+                                            
+                                            
+                                            
+                                            
+                                            
+                                            </footer>
+</body>
+</html>
